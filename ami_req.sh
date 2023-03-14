@@ -69,5 +69,4 @@ if [[ -f /home/ubuntu/.bash_history ]]; then
     shred -u /home/ubuntu/.bash_history
     echo "Remove ubuntu user history file"
 fi
-history -c && history -w   # Clear command history
 rm -Rf /home/ubuntu/*
