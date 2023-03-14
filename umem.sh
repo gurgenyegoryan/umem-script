@@ -29,6 +29,3 @@ sudo chown root:root /usr/bin/ukv_flight_server_umem
 sudo systemctl daemon-reload
 sudo systemctl enable ukv_flight_server_umem.service
 sudo systemctl start ukv_flight_server_umem.service
-else
-echo "Wrong Engine"
-fi
